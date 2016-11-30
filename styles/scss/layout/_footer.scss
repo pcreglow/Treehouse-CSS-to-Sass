@@ -1,0 +1,18 @@
+// Footer Styles
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  background-color: $off-white;
+}
+footer .footer-nav {
+  font-size: 12px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline-block;
+}

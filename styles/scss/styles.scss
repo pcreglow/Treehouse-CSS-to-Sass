@@ -5,84 +5,17 @@
 @import 'base/index';
 @import 'content/index';
 
-/* Section Styles */
-
-.main-nav {
-  width: 100%;
-  min-height: 30px;
-  padding: 2%;
-  text-align: center;
-  background-color: $off-white;
-  font-weight: bold;
-}
-.nav {
-  display: block;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.nav .name {
-  color: #000;
-  font-size: 20px;
-  background-color: $off-white;
-}
-.nav li {
-  padding: 2%;
-  margin: 1.5% 2%;
-  font-size: 14px;
-  width: 96%;
-  background-color: $white;
-}
-.nav a {
-  transition: all .5s;
-}
-.nav a:hover {
-  text-decoration: underline;
-}
 
 
 
 
 
-footer {
-  width: 100%;
-  min-height: 30px;
-  background-color: $off-white;
-}
-footer .footer-nav {
-  font-size: 12px;
-}
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-footer li {
-  display: inline-block;
-}
-.secondary-nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.secondary-nav .footer-name {
-  display: block;
-  margin-right: auto;
-  color: $black;
-}
-.secondary-nav li {
-  padding: 2% 2.5% 4%;
-}
-.secondary-nav a:hover {
-  text-decoration: underline;
-}
-.bottom-nav {
-  display: none;
-}
+
+
+
+
+
+
 
 
 /* Tablet Media Query */
