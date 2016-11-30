@@ -69,7 +69,7 @@ a {
   height: auto; }
 
 .portfolio {
-  background: #fff; }
+  background-color: #fff; }
 
 .portfolio h3 {
   text-align: center;
@@ -89,7 +89,7 @@ a {
   font-size: 14px; }
 
 .contact {
-  background: #fafafa;
+  background-color: #fafafa;
   margin: 0;
   padding: 0 2.5%; }
 
