@@ -1,15 +1,17 @@
 // Project Styles
 
 .project {
-  text-align: center;
-  width: 100%;
-  padding: 2% 5%;
-  display: block;
-}
-.project img {
-  width: 100%;
-  height: auto;
-}
-.project p {
-  font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding: 2% 5%;
+    display: block;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
