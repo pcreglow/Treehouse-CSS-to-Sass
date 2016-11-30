@@ -5,6 +5,7 @@
     background-color: $off-white;
     @include tablet {
         display: inline-block;
+        width: 100%;
     }
 }
 
@@ -16,5 +17,10 @@
         width: 60%;
         float: left;
         padding: 1% 5%;
+        text-align: left;
+    }
+    @include desktop {
+        padding: 1% 2.5%;
+        font-size: 18px;
     }
 }

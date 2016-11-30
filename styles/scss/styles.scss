@@ -25,21 +25,11 @@
     width: auto;
     font-size: 20px;
   }
-  .intro {
-    display: inline-block;
-    width: 100%;
-  }
+
   .headshot {
     width: 40%;
     float: right;
     padding: 1% 2.5% 4%;
-  }
-  .intro-content {
-    width: 60%;
-    float: left;
-    padding: 1% 2.5%;
-    text-align: left;
-    font-size: 18px;
   }
   .project {
     width: 32%;
@@ -58,12 +48,7 @@
   .contact p {
     padding-bottom: 2%;
   }
-  .top {
-    display: none;
-  }
-  .bottom-nav {
-    display: inline-block;
-  }
+
   footer .footer-nav {
     font-size: 16px;
   }
