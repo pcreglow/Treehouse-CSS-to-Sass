@@ -1,0 +1,23 @@
+// Secondary Navigation Styles
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-around;
+    @extend %bold;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+    .footer-name {
+        margin-right: auto;
+        color: $black;
+    }
+
+    li {
+        padding: 2% 2.5% 4%;
+    }
+
+    a:hover {
+        @extend %underline;
+    }
+}

@@ -1,0 +1,23 @@
+// Base Styles
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    @extend %centered;
+    font-family: $font;
+    color: $black;
+    background: $white;
+}
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        @extend %underline;
+    }
+}

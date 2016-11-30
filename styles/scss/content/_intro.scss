@@ -1,0 +1,26 @@
+// Intro Styles
+
+.intro {
+    display: block;
+    background-color: $off-white;
+    @include tablet {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.intro-content {
+    width: 100%;
+    padding: 1% 5%;
+    font-size: $font-size;
+    @include tablet {
+        width: 60%;
+        float: left;
+        padding: 1% 5%;
+        text-align: left;
+    }
+    @include desktop {
+        padding: 1% 2.5%;
+        font-size: 18px;
+    }
+}

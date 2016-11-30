@@ -1,0 +1,17 @@
+// Headshot Styles
+
+.headshot {
+    width: 100%;
+    height: auto;
+    padding: 2% 15%;
+    @include tablet {
+        width: 40%;
+        float: right;
+        padding: 1% 2.5% 4%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

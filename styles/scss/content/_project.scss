@@ -1,0 +1,37 @@
+// Project Styles
+
+.project {
+    text-align: center;
+    width: 100%;
+    padding: 2% 5%;
+    display: block;
+    @include tablet {
+        width: 48%;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 1%;
+    }
+    @include desktop {
+        width: 32%;
+        vertical-align: top;
+        min-height: 350px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h4 {
+        @include desktop {
+            font-size: 22px;
+        }
+    }
+
+    p {
+        font-size: $font-size;
+        @include desktop {
+            font-size: 18px;
+        }
+    }
+}
