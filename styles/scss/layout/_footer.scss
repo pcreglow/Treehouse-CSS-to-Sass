@@ -7,6 +7,9 @@ footer {
 
     .footer-nav {
         font-size: 12px;
+        @include desktop {
+            font-size: 16px;
+        }
     }
 
     ul {
