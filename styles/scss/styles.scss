@@ -23,20 +23,14 @@
 /* Tablet Media Query */
 
 @media screen and (min-width: 768px) {
-  
-  .intro {
-    display: inline-block;
-  }
+
+
   .headshot {
     width: 40%;
     float: right;
     padding: 1% 2.5% 4%;
   }
-  .intro-content {
-    width: 60%;
-    float: left;
-    padding: 1% 5%;
-  }
+  
   .portfolio h3 {
     padding: 1% 0;
   }
