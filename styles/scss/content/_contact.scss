@@ -10,7 +10,7 @@
         font-size: 20px;
         padding: 4% 0 2%;
         @include desktop {
-          font-size: 24px;
+            font-size: 24px;
         }
     }
 
@@ -22,7 +22,7 @@
             padding-bottom: 2%;
         }
         @include desktop {
-          font-size: 18px;
+            font-size: 18px;
         }
 
         &.email {

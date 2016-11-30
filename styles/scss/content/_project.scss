@@ -12,9 +12,9 @@
         padding: 1%;
     }
     @include desktop {
-      width: 32%;
-      vertical-align: top;
-      min-height: 350px;
+        width: 32%;
+        vertical-align: top;
+        min-height: 350px;
     }
 
     img {
@@ -23,15 +23,15 @@
     }
 
     h4 {
-      @include desktop {
-        font-size: 22px;
-      }
+        @include desktop {
+            font-size: 22px;
+        }
     }
 
     p {
         font-size: 14px;
         @include desktop {
-          font-size: 18px;
+            font-size: 18px;
         }
     }
 }
