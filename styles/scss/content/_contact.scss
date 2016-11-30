@@ -15,6 +15,9 @@
         font-size: 14px;
         margin: 0;
         padding-bottom: 4%;
+        @include tablet {
+            padding-bottom: 2%;
+        }
 
         &.email {
             border-bottom: 1px solid $gray;
