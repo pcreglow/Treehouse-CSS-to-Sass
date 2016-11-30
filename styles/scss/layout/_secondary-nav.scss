@@ -1,21 +1,24 @@
 // Secondary Navigation Styles
 
 .secondary-nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.secondary-nav .footer-name {
-  display: block;
-  margin-right: auto;
-  color: $black;
-}
-.secondary-nav li {
-  padding: 2% 2.5% 4%;
-}
-.secondary-nav a:hover {
-  text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+    .footer-name {
+        display: block;
+        margin-right: auto;
+        color: $black;
+    }
+
+    li {
+        padding: 2% 2.5% 4%;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
