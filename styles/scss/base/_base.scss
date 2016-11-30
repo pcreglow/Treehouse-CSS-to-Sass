@@ -8,15 +8,15 @@ body {
   padding: 0;
   text-align: center;
   font-family: Calibri, sans-serif;
-  color: #000;
-  background: #fff;
+  color: $black;
+  background: $white;
 }
 
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #000;
+  color: $black;
 }
 a:hover {
   text-decoration: underline;

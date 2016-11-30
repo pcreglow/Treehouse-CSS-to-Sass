@@ -11,7 +11,7 @@
   min-height: 30px;
   padding: 2%;
   text-align: center;
-  background-color: #fafafa;
+  background-color: $off-white;
   font-weight: bold;
 }
 .nav {
@@ -24,14 +24,14 @@
 .nav .name {
   color: #000;
   font-size: 20px;
-  background-color: #fafafa;
+  background-color: $off-white;
 }
 .nav li {
   padding: 2%;
   margin: 1.5% 2%;
   font-size: 14px;
   width: 96%;
-  background-color: #fff;
+  background-color: $white;
 }
 .nav a {
   transition: all .5s;
@@ -41,7 +41,7 @@
 }
 .intro {
   display: block;
-  background-color: #fafafa;
+  background-color: $off-white;
 }
 .intro-content {
   width: 100%;
@@ -58,7 +58,7 @@
   height: auto;
 }
 .portfolio {
-  background: #fff;
+  background: $white;
 }
 .portfolio h3 {
   text-align: center;
@@ -78,7 +78,7 @@
   font-size: 14px;
 }
 .contact {
-  background: #fafafa;
+  background: $off-white;
   margin: 0;
   padding: 0 2.5%;
 }
@@ -93,12 +93,12 @@
   padding-bottom: 4%;
 }
 .email {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid $gray;
 }
 footer {
   width: 100%;
   min-height: 30px;
-  background-color: #fafafa;
+  background-color: $off-white;
 }
 footer .footer-nav {
   font-size: 12px;
@@ -122,7 +122,7 @@ footer li {
 .secondary-nav .footer-name {
   display: block;
   margin-right: auto;
-  color: #000;
+  color: $black;
 }
 .secondary-nav li {
   padding: 2% 2.5% 4%;
@@ -145,7 +145,7 @@ footer li {
     margin: 0 auto;
   }
   .nav li {
-    background-color: #fafafa;
+    background-color: $off-white;
     width: 10%;
     display: inline-block;
     padding: 1%;
@@ -196,7 +196,7 @@ footer li {
     text-align: left;
   }
   .nav li {
-    background-color: #fafafa;
+    background-color: $off-white;
     padding: 1% 0 1% 1%;
     margin: 0 1%;
     width: auto;
