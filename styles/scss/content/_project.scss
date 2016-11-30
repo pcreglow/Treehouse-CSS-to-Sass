@@ -5,6 +5,12 @@
     width: 100%;
     padding: 2% 5%;
     display: block;
+    @include tablet {
+        width: 48%;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 1%;
+    }
 
     img {
         width: 100%;

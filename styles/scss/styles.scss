@@ -7,41 +7,6 @@
 @import 'content/index';
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tablet Media Query */
-
-@media screen and (min-width: 768px) {
-
-
-  .headshot {
-    width: 40%;
-    float: right;
-    padding: 1% 2.5% 4%;
-  }
-  
-  .portfolio h3 {
-    padding: 1% 0;
-  }
-  .project {
-    width: 48%;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 1%;
-  }
-}
-
 /* Desktop Media Query */
 
 @media screen and (min-width: 1024px) {
