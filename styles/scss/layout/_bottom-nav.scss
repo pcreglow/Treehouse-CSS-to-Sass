@@ -1,5 +1,14 @@
 // Bottom Navigation Styles
 
 .bottom-nav {
-  display: none;
+    display: none;
+    @include tablet {
+        display: inline-block;
+    }
+}
+
+.top {
+    @include tablet {
+        display: none;
+    }
 }
