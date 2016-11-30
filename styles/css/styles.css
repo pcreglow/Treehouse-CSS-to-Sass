@@ -13,9 +13,8 @@ body {
 a {
   text-decoration: none;
   color: #000; }
-
-a:hover {
-  text-decoration: underline; }
+  a:hover {
+    text-decoration: underline; }
 
 /* Section Styles */
 .main-nav {

@@ -1,23 +1,23 @@
 // Base Styles
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: Calibri, sans-serif;
-  color: $black;
-  background: $white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    color: $black;
+    background: $white;
 }
-
 /* Link Styles */
-
 a {
-  text-decoration: none;
-  color: $black;
-}
-a:hover {
-  text-decoration: underline;
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
