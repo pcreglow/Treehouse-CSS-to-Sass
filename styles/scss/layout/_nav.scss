@@ -22,7 +22,7 @@
         background-color: $off-white;
     }
 
-    .nav li {
+    li {
         padding: 2%;
         margin: 1.5% 2%;
         font-size: 14px;
@@ -30,10 +30,10 @@
         background-color: $white;
     }
 
-    .nav a {
+    a {
         transition: all 0.5s;
 
-        &a:hover {
+        &:hover {
             text-decoration: underline;
         }
     }
