@@ -4,9 +4,9 @@
     width: 100%;
     min-height: 30px;
     padding: 2%;
-    text-align: center;
+    @extend %centered;
     background-color: $off-white;
-    font-weight: bold;
+    @extend %bold;
 }
 
 .nav {

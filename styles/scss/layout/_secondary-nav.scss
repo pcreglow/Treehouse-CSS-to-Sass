@@ -3,7 +3,7 @@
 .secondary-nav {
     display: flex;
     justify-content: space-around;
-    font-weight: bold;
+    @extend %bold;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
